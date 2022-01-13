@@ -30,17 +30,17 @@ items.addEventListener('click', (e) => {
 
             if (idp == id) {
                 contenedor.innerHTML = ` <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">${Pelicula}</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Nombre de Pelicula:${Pelicula}</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <center>
                     <img src="${Imagen}" alt="">
                 </center>
-                <h3>${Genero}</h3>
-                <h3>${Director}</h3>
-                <h3>${Año}</h3>
-                <p>${Descripcion}</p>
+                <h3>Genero:${Genero}</h3>
+                <h3>Director:${Director}</h3>
+                <h3>Año:${Año}</h3>
+                <p>Descripcion:${Descripcion}</p>
             </div>
                 
                    `
